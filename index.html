@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kuliner Khas Kalimantan</title>
+    <title>Slide Kuliner Kalimantan</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -11,86 +11,74 @@
 
     <nav class="navbar">
         <div class="logo">Borneo<span>Taste</span></div>
-        <ul class="nav-links">
-            <li><a href="#home">Beranda</a></li>
-            <li><a href="#makanan">Makanan</a></li>
-            <li><a href="#minuman">Minuman</a></li>
-        </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
     </nav>
 
-    <header id="home" class="hero">
-        <div class="hero-content">
-            <h1>Cita Rasa Kalimantan</h1>
-            <p>Menjelajahi keunikan kuliner tradisional dari Bumi Borneo.</p>
-            <a href="#makanan" class="btn">Lihat Menu</a>
-        </div>
-    </header>
+    <section class="slider-section">
+        <h2 class="section-title">Eksplorasi Kuliner Kalimantan</h2>
+        
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                
+                <div class="slide">
+                    <div class="slide-content">
+                        <img src="soto.jpg" alt="Soto Banjar">
+                        <div class="text-box">
+                            <span class="tag">Makanan - Kalsel</span>
+                            <h3>Soto Banjar</h3>
+                            <p>Masakan tradisional khas Banjarmasin dengan kuah rempah (kayu manis, cengkeh) dan ayam kampung suwir.</p>
+                        </div>
+                    </div>
+                </div>
 
-    <section id="makanan" class="container">
-        <h2 class="section-title">Makanan Khas</h2>
-        <div class="grid-container">
-            
-            <article class="card">
-                <div class="card-image">
-                    <img src="soto.jpg" alt="Soto Banjar">
+                <div class="slide">
+                    <div class="slide-content">
+                        <img src="choipan.jpg" alt="Choipan">
+                        <div class="text-box">
+                            <span class="tag">Makanan - Kalbar</span>
+                            <h3>Choipan</h3>
+                            <p>Camilan Tionghoa populer di Pontianak dengan kulit lembut dan isian bengkuang gurih.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-content">
-                    <h3>Soto Banjar</h3>
-                    <p class="origin">Kalimantan Selatan</p>
-                    <p>Masakan tradisional khas Banjarmasin yang berkuah rempah khas (kayu manis, cengkeh, kapulaga) dengan bahan utama ayam kampung suwir dan ketupat.</p>
-                </div>
-            </article>
 
-            <article class="card">
-                <div class="card-image">
-                    <img src="choipan.jpg" alt="Choipan">
+                <div class="slide">
+                    <div class="slide-content">
+                        <img src="amplang.jpg" alt="Amplang">
+                        <div class="text-box">
+                            <span class="tag">Camilan - Kaltim</span>
+                            <h3>Amplang</h3>
+                            <p>Kerupuk ikan tenggiri yang renyah dan gurih, oleh-oleh wajib dari bumi Kalimantan.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-content">
-                    <h3>Choipan</h3>
-                    <p class="origin">Kalimantan Barat</p>
-                    <p>Makanan khas Tionghoa populer di Pontianak dan Singkawang. Dikenal dengan kulit lembut dan isian gurih seperti bengkuang, kucai, atau talas, disajikan dengan bawang putih goreng dan sambal cuka.</p>
-                </div>
-            </article>
 
-            <article class="card">
-                <div class="card-image">
-                    <img src="amplang.jpg" alt="Amplang">
+                <div class="slide">
+                    <div class="slide-content">
+                        <img src="esnangka.jpg" alt="Es Nangka">
+                        <div class="text-box">
+                            <span class="tag">Minuman - Kalsel</span>
+                            <h3>Es Nangka Selasih</h3>
+                            <p>Perpaduan segar buah nangka, biji selasih, dan perasan jeruk nipis yang manis-asam.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-content">
-                    <h3>Amplang</h3>
-                    <p class="origin">Kalimantan Timur/Tengah/Barat</p>
-                    <p>Kerupuk ikan renyah, gurih, dan kaya protein yang terbuat dari ikan giling (tenggiri/gabus/belida) dicampur tepung tapioka dan telur. Biasanya menjadi oleh-oleh khas.</p>
-                </div>
-            </article>
 
-        </div>
-    </section>
+            </div>
 
-    <section id="minuman" class="container">
-        <h2 class="section-title">Minuman Khas</h2>
-        <div class="grid-container">
-            
-            <article class="card">
-                <div class="card-image">
-                    <img src="esnangka.jpg" alt="Es Nangka Selasih">
-                </div>
-                <div class="card-content">
-                    <h3>Es Nangka Selasih</h3>
-                    <p class="origin">Kalimantan Selatan</p>
-                    <p>Minuman segar khas Banjar yang memadukan potongan buah nangka matang, biji selasih, sirup manis, dan perasan jeruk nipis yang menyegarkan.</p>
-                </div>
-            </article>
+            <button class="prev-btn">&#10094;</button>
+            <button class="next-btn">&#10095;</button>
 
+            <div class="dots-container">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 makanan khas kalimantan.</p>
+        <p>&copy; 2026 Kuliner Kalimantan | Tugas Kuliah</p>
     </footer>
 
     <script src="script.js"></script>
